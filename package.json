@@ -1,0 +1,28 @@
+{
+  "name": "ms-email",
+  "version": "1.0.0",
+  "description": "Microsservico de Email",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thalles-Ribeiro-Nascimento/ms-email.git"
+  },
+  "author": "Thalles Nascimento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thalles-Ribeiro-Nascimento/ms-email/issues"
+  },
+  "homepage": "https://github.com/Thalles-Ribeiro-Nascimento/ms-email#readme",
+  "dependencies": {
+    "amqplib": "^0.10.8",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.3",
+    "nodemon": "^3.1.10"
+  }
+}
