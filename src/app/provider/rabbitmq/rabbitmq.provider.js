@@ -33,7 +33,8 @@ class RabbitMQConsumer {
                         await EmailService.sendEmail(
                             email,
                             'Bem-vindo ao nosso sistema!',
-                            `Olá, ${nome}! Obrigado por se cadastrar.`
+                            `Olá, ${nome}! Obrigado por se cadastrar.`,
+                            nome
                         );
 
                         channel.ack(msg);
